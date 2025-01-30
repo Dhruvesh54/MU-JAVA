@@ -6,24 +6,28 @@ class Add {
     Add() {
         a = 5;
         b = 6;
+        System.out.println("Default constructor");
     }
 
     // Constructor with two int parameters
     Add(int x, int y) {
         a = x;
         b = y;
+        System.out.println("Constructor with two int parameters");
     }
 
     // Copy constructor
     Add(Add ob) {
         a = ob.a;
         b = ob.b;
+        System.out.println("Copy constructor");
     }
 
     // Constructor with int and float parameters
     Add(int x, float y) {
         a = x;
         p = y;
+        System.out.println("Constructor with int and float parameters");
     }
 
     // Constructor with float, int, and float parameters
@@ -31,6 +35,7 @@ class Add {
         p = x;
         b = y;
         q = z;
+        System.out.println("Constructor with float, int, and float parameters");
     }
 }
 

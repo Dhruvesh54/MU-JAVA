@@ -6,7 +6,7 @@ public class parameterized_constructor {
     }
 
     public static void main(String[] args) {
-        parameterized_constructor myObj = new parameterized_constructor(5);
+        parameterized_constructor myObj = new parameterized_constructor(4);
         System.out.println(myObj.x);
     }
 }
